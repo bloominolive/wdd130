@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Cabin:ital,wght@1,600&family=Cherry+Cream+Soda&family=Source+Serif+Pro&display=swap');
 main section {
     text-align: center;
-    color: #284253; /*used a different shade than other spots to enhance constrast (used a few more times throughout page instead of original wireframe color)*/
+    color: #284253; /*used a different shade than other spots to enhance contrast (used a few more times throughout page instead of original wireframe color)*/
 }
 nav a {
-    text-align: center;
-    background-color:#F1F9F5;
-    color:#284253; 
+    color:#F1F9F5; 
+    font-family: Brygada;
     text-decoration: none;   
+    padding: 35px;
 }
 nav a:hover {
-    color: #F1F9F5;
-    background-color:#DC7C23;    
+    color: #284253; 
+    background-color: #F1F9F5;
+    text-decoration: underline;
+    border: #24799D; 
+    border-style: ridge;  
 }
 body {
     background-color: #F1F9F5;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #334E60;
@@ -21,6 +28,18 @@ header {
 footer {
     background-color: #24799D;
     color: #F1F9F5;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+h2 {
+    font-family: Cabin;
+    margin: 0;
+}
+main section img {
+    box-sizing: border-box;
 }
 #content {
     max-width: 1600px;
@@ -30,48 +49,79 @@ footer {
     height: 725px;
     background-color: #24799D;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1 {
     text-align: center;
+    font-size: 2em;
     color: #284253;
+    font-family: Cherry Cream Soda;
+    margin-top: 10px;
+}
+#hero-msg h4 {
+    text-align: center;
+    color: #F1F9F5;
+    font-family: Brygada;
+    background-color: #334E60;
 }
 #hero-img {
     width: 100%;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
-    display: block;
-    width: 20%; /* I added the width different than the 80px it showed on the assignment because I liked this look better*/ 
-    margin: auto;
+    width: 80px; 
 }
 .button-box {
     text-align: center;
 }
 .book, .join {
-    color: #24799D;
+    color: #F1F9F5;
     text-decoration: none;
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #DC7C23;
 }
 .book:hover, .join:hover {
-    color: #DC7C23;
-}
-.join-on-color {
-    color: #F1F9F5;
-}
-.join-on-color:hover {
-    color: #f68e2d;
+    color: #284253;
+    border: #24799D; 
+    background-color: #F1F9F5;
+    border-style: ridge;
+    text-decoration: underline;
 }
 .msg {
     background-color: #334E60;
     color: #F1F9F5;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    font-family: Source Serif Pro;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid#334E60;
 }
 .footer-links {
     color: #F1F9F5;
     text-decoration: none;
+    font-family: Brygada;
 }
 .footer-links:hover {
-    color: #f68e2d; /*used a slightly different shade of the orange I've been using here to enhance contrast (used a couple times throughout page also) */
+    color: #284253;
     text-decoration: underline;
+    background-color: #F1F9F5;
 }
+
 
 
