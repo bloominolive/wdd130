@@ -186,6 +186,23 @@ main section img {
     text-decoration: underline;
     background-color: #F1F9F5;
 }
+/* FAQ styles */
+.faq-text{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.faq-text p{
+    font-family: Source Serif Pro;
+    font-size: .7em;
+    padding-bottom: 15px;
+}
+.river-image{
+    margin:0;
+    width:100%
+}
+.faq-footer{
+    margin-top: 0;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
