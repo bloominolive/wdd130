@@ -13,7 +13,7 @@ nav {
 }
 nav a {
     color:#F1F9F5; 
-    font-family: Brygada;
+    font-family: "Brygada";
     text-decoration: none;   
     padding: 35px;
 }
@@ -49,7 +49,7 @@ footer .social img {
     padding-top: 15px;
 }
 h2 {
-    font-family: Cabin;
+    font-family: "Cabin";
     margin: 0;
 }
 main section img {
@@ -84,13 +84,13 @@ main section img {
     text-align: center;
     font-size: 2em;
     color:#F1F9F5;
-    font-family: Cherry Cream Soda;
+    font-family: "Cherry Cream Soda";
     margin-top: 10px;
 }
 #hero-msg h4 {
     text-align: center;
     color: #F1F9F5;
-    font-family: Brygada;
+    font-family: "Brygada";
     background-color: #334E60;
 }
 #hero-img {
@@ -115,7 +115,7 @@ main section img {
 .book, .join {
     color: #F1F9F5;
     text-decoration: none;
-    font-family: Source Serif Pro;
+    font-family: "Source Serif Pro";
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -139,7 +139,7 @@ main section img {
 
 }
 .msg p {
-    font-family: Source Serif Pro;
+    font-family: "Source Serif Pro";
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -179,7 +179,7 @@ main section img {
 .footer-links {
     color: #F1F9F5;
     text-decoration: none;
-    font-family: Brygada;
+    font-family: "Brygada";
 }
 .footer-links:hover {
     color: #284253;
@@ -192,7 +192,7 @@ main section img {
     margin-right: 10px;
 }
 .faq-text p{
-    font-family: Source Serif Pro;
+    font-family: "Source Serif Pro";
     font-size: .7em;
     padding-bottom: 15px;
 }
