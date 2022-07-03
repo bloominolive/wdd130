@@ -17,7 +17,7 @@ nav {
     position: relative;
     background-color: #E6E5CA;
     padding: .7rem; 
-    border-radius: 6%;  
+    border-radius: 10px;  
     width: 80%; 
 }
 nav a {
@@ -51,7 +51,7 @@ nav a:hover {
     grid-row: 1;
     background-color: #313C6B;
     color: #E6E5CA;
-    border-radius: 8%;
+    border-radius: 30px;
     box-shadow: 5px 5px 10px #313C6B;
     font-family: montserrat;   
 }
@@ -75,14 +75,14 @@ nav a:hover {
     box-shadow: 5px 5px 10px #313C6B;
 }
 img {
-    border-radius: 8%;
+    border-radius: 30px;
 }
 .recommended-tasks {
     grid-column:4/7;
     grid-row: 1;
     background-color: #313C6B;
     color: #E6E5CA;
-    border-radius: 8%;
+    border-radius: 30px;
     box-shadow: 5px 5px 10px #313C6B; 
     font-family: montserrat; 
 }
@@ -102,7 +102,7 @@ img {
 .latest-blog-post {
     grid-column: 1/5;
     grid-row: 3;
-    border-radius: 8%;
+    border-radius: 30px;
     background-color: #313C6B;
     color: #E6E5CA;
     box-shadow: 5px 5px 10px #313C6B;
