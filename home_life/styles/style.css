@@ -12,33 +12,65 @@ header img {
     height: 350px;
     width: 900px;
 }
-nav {
+.topnav {
     display: inline-block;
     position: relative;
     background-color: #E6E5CA;
-    padding: .7rem; 
+    padding: .4rem; 
     border-radius: 10px;  
     width: 80%; 
+    line-height: 3;
 }
-nav a {
+.topnav a {
     color:#313C6B; 
     text-decoration: none; 
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
     font-family: Montserrat;
     font-weight: 600;
 }
-nav a:hover {
+.topnav a:hover {
     color: #313C6B; 
     background-color: #C9E265;
     text-decoration: underline;
     padding: .7rem;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
 }
+.topnav .login-container {
+    float: right;
+}
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+}
+.topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #C9E265;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    color: #313C6B;
+    border: none;
+    cursor: pointer;
+  }
+  .topnav .login-container button:hover {
+    background: #E6E5CA;
+    border-color: #C9E265;
+    border-style: solid;
+  }
 a {
     text-decoration: none;
 }
+
 #home-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -180,6 +212,7 @@ footer h5 {
         padding-right: 15%;
         background-color: #fbf5d8;
     }
+    
   }
 
 
