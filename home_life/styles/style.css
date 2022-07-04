@@ -28,6 +28,7 @@ header img {
     padding-right: 4%;
     font-family: Montserrat;
     font-weight: 600;
+    border-right: solid white;
 }
 .topnav a:hover {
     color: #313C6B; 
