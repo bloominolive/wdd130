@@ -213,7 +213,24 @@ footer h5 {
         padding-right: 15%;
         background-color: #fbf5d8;
     }
-    
-  }
-
+}
+@media screen and (max-width: 600px) {
+    .topnav .login-container {
+        float: none;
+      }
+      .topnav a {
+        border-right: 0;
+      }
+      .topnav a, .topnav input[type=text], .topnav .login-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 80%;
+        margin: 0;
+        padding: 14px;
+      }
+      .topnav input[type=text] {
+        border: 1px solid #ccc;
+      }
+    }
 
