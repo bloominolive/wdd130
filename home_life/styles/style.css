@@ -1,6 +1,7 @@
-main {
-    background-color: #E6E5CA;
+body {
+    
 }
+
 header {
     height: auto;
     background-color: #313C6B;
@@ -85,14 +86,17 @@ a {
 .banner{
     max-width: 100%;
 }
-.top-seasonal-tips {
-    grid-column: 1/4;
-    grid-row: 1;
+.text-boxes {
     background-color: #313C6B;
     color: #E6E5CA;
     border-radius: 30px;
     box-shadow: 5px 5px 10px #313C6B;
     font-family: montserrat;   
+}
+.top-seasonal-tips {
+    grid-column: 1/4;
+    grid-row: 1;
+
 }
 .top-seasonal-tips ul {
     padding-right: 12%;
@@ -116,15 +120,11 @@ a {
 }
 img {
     border-radius: 30px;
+    box-shadow: 5px 5px 10px #313C6B;
 }
 .recommended-tasks {
     grid-column:4/7;
-    grid-row: 1;
-    background-color: #313C6B;
-    color: #E6E5CA;
-    border-radius: 30px;
-    box-shadow: 5px 5px 10px #313C6B; 
-    font-family: montserrat; 
+    grid-row: 1;    
 }
 .recommended-tasks ul {
     padding-left: 16%;
@@ -148,6 +148,7 @@ img {
     color: #E6E5CA;
     box-shadow: 5px 5px 10px #313C6B;
     text-decoration: none;
+    font-family: montserrat;
 }
 .latest-blog-post p {
     padding-left: 7%;
@@ -172,7 +173,7 @@ img {
     color: #E6E5CA;
     text-decoration: none;
 }
-h2 {
+.center {
     text-align: center;
 }
 .right-bottom-img {
@@ -191,6 +192,8 @@ footer {
     background-color: #313C6B;
     text-align: left;
     padding: 3%;
+    bottom: 0;
+    
 }
 .logo {
     max-width: 50px;
@@ -207,13 +210,105 @@ footer h5 {
     color: #E6E5CA;
     display: inline-block;
 }
+/*Blog styles*/
+body {
+    background-color: #E6E5CA;
+}
+hr {
+    background-color: #313C6B;
+}
+.photo-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 20px;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.header-icon{
+    font-family: Montserrat;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 100px;
+    background-color: #313C6B;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #313C6B;
+}
+.header-icon h1{
+    margin-top: 0px;
+    padding-top: 1%;
+    color: #E6E5CA;
+    margin-bottom: 0px;
+}
+.header-icon hr{
+    width: 80%;
+    color: #E6E5CA;
+    background-color: #E6E5CA;
+}
+.header-icon h4{
+    color:#C9E265;
+    font-weight: lighter;
+    margin-top: 1em;
+}
+.post {
+    background-color: #313C6B;
+    color:#E6E5CA;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 50px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: montserrat;
+    box-shadow: 5px 5px 10px #313C6B;
+}
+.post h1{
+    font-weight: 700;
+    font-size:xx-large;
+}
+.post a {
+    text-decoration: underline;
+    color: #E6E5CA;
+    font-weight: bold;    
+}
+.post a:hover {
+    color: #C9E265;
+}
+/**task planner styles*/
+.task-planner-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 20px;
+    margin-bottom: 10%;
+    margin-top: 4%;
+}
+.grid-boxes {
+    column-gap: 5%;
+    row-gap: 20%;
+}
+.grid-boxes h2 {
+    text-align: center;
+}
+.grid-boxes ul {
+    list-style: none;
+    line-height: 2em;
+}
+.grid-boxes li:before {
+    content: "\2610";
+    margin-right: 5px;
+}
+
+
 @media (min-width: 1800px) {
     .body{
         padding-left: 15% ;
         padding-right: 15%;
         background-color: #fbf5d8;
     }
-}
+} 
 @media screen and (max-width: 600px) {
     .topnav .login-container {
         float: none;

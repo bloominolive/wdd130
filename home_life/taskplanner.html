@@ -11,100 +11,122 @@
     <title>Task Planner</title>
 </head>
 <body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/homelifelogo.png" alt="Home Life Logo">
-            <h1>Home Life</h1>
-            <h3>Enjoy Being Organized.</h3>
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="banner" src="images/Home-Life-Page-Banner.png" alt="home life banner">
             </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="taskplanner.html">Task Planner</a>
-                <a href="blog.html">Blog</a>
-            </nav>
-    </header>
+                <div class="topnav">
+                    <a href="index.html">Home</a>
+                    <a href="taskplanner.html">Task Planner</a>
+                    <a href="blog.html">Blog</a>
+                    <div class="login-container">
+                        <form action="/action_page.php">
+                          <input type="text" placeholder="Username" name="username">
+                          <input type="text" placeholder="Password" name="psw">
+                          <button type="submit">Login</button>
+                        </form>
+                      </div>
+                </div>
+        </header>
+    <main>
+            <hr>
+        <div class="header-icon">
+            <h1>Task Planner</h1>
+            <hr>
+            <h4>Get Started</h4>
+        </div>
+            <hr>
     <div class="photo-row">
-        <div class="column">
-            <img src="images/freshstart-800x500-min.jpg" alt="fresh start" style="width:100%">
+        <div>
+            <img src="images/freshstart-800x500-min.jpg" alt="fresh start" style="width:90%">
         </div>
-        <div class="column">
-            <img src="images/lightbulbchange-800x500-min.jpg" alt="change light" style="width:100%">
+        <div>
+            <img src="images/lightbulbchange-800x500-min.jpg" alt="change light" style="width:90%">
         </div>
-        <div class="column">
-            <img src="images/daygreat-800x600-min.jpg" alt="day great" style="width:100%">
+        <div>
+            <img src="images/daygreat-800x600-min.jpg" alt="day great" style="width:90%">
         </div>
-        <div class="column">
-            <img src="images/mop-800x500-min.jpg" alt="mop" style="width:100%">
+        <div>
+            <img src="images/mop-800x500-min.jpg" alt="mop" style="width:90%">
+        </div>
+        <div>
+            <img src="images/meditation-800x500-min.jpg" alt="meditation" style="width:90%">
         </div>
     </div>
-    <div class="header-icon">
-        <h2>Task Planner</h2>
-        <h3>Let's get to work.</h3>
-    </div>
-    <main class="task-planner-grid">
-        <section class="daily">
+    <hr>
+    <div class="task-planner-grid grid-boxes">
+        <section class="daily text-boxes">
             <h2>Daily</h2>
             <ul>
-                <li>Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li>
+                <li>Sweep floors</li>
+                <li>Wipe bathroom and kitchen countertops</li>
+                <li>One load of laundry (and get it put away!)</li>
+                <li>No dirty dishes at the end of the day</li>
+                <li>10 minute declutter</li>
+                <li>Prayer/Meditation</li>
             </ul>
         </section>
-        <section class="weekly">
+        <section class="weekly text-boxes">
             <h2>Weekly</h2>
             <ul>
-                <li>Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li>
+                <li>Dust</li>
+                <li>Wash bedding</li>
+                <li>Mop/Vacuum</li>
+                <li>Scrub Toilets/Sinks</li>
+                <li>Clean showers/tubs</li>
+                <li>Plan upcoming week and counsel with family</li>
             </ul>
         </section>
-        <section class="bi-weekly">
+        <section class="bi-weekly text-boxes">
             <h2>Bi-Weekly</h2>
             <ul>
-                <li>Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li>
+                <li>Clean out fridge</li>
+                <li>Check outside of home for pests and cosmetic issues</li>
+                <li>Wipe down baseboards, doors, and appliances</li>
+                <li>Check food storage staples for rotation or refill</li>
             </ul>
         </section>
-        <section class="monthly">
+        <section class="monthly text-boxes">
             <h2>Monthly</h2>
             <ul>
-                <li>Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li>
+                <li>Clean inside of washing machine and dishwasher (with cleaning solution or tablet through a cycle)</li>
+                <li>Sanitize all electronics, keyboards, lightswitches, and doorknobs.</li>
+                <li>Wash windows</li>
+                <li>Prep budget for upcoming month</li>
+                <li>Go through garage to sweep, declutter, and organize</li>
             </ul>
         </section>
-        <section class="quarterly">
+        <section class="quarterly text-boxes">
             <h2>Quarterly</h2>
             <ul>
-                <li>Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li>
+                <li>Check sprinkler heads around home for broken heads and correct positioning</li>
+                <li>Check lightbulbs, dust around lamps or lights higher up</li>
+                <li>Clean range hood</li>
+                <li>Wipe down cupboards, inside and out</li>
+                <li>Clean out gutters</li>
+                <li>Go through closets to organize, declutter, and donate</li>
             </ul>
         </section>
-        <section class="yearly">
+        <section class="yearly text-boxes">
             <h2>Yearly</h2>
             <ul>
-                <li>Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li>
+                <li>Check grout around home- does it need to be resealed or filled in?</li>
+                <li>Move appliances and furniture to clean floors underneath</li>
+                <li>Inspect smoke detectors</li>
+                <li>Check all emergency supplies for working batteries, lights, radios, expired food, etc.</li>
+                <li>Clean out dryer vents</li>
+                <li>Shampoo carpets</li>
+                <li>Check all personal care products for expiration (makeup, lotions, etc.)</li>
+                <li>Powerwash driveway and sides of home</li>
             </ul>
         </section>
+    </div>
     </main>
     <footer>
-        <h3>Home Life &copy; 2022 - Rene Olive</h3>
-        <h3><a href="site-plan.html" class="footer-links">Site Plan</a></h3>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
+        <a id="logo-link-footer" href="index.html"> 
+            <img class="logo" src="images/homelifelogo.png" alt="home life logo">
+        </a>
+        <h2>Home Life </h2> <h5>Rene Olive - 2022   WDD 130</h5>
     </footer>
 </body>
 </html>
