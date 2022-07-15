@@ -1,7 +1,3 @@
-body {
-    
-}
-
 header {
     height: auto;
     background-color: #313C6B;
@@ -9,9 +5,29 @@ header {
     padding: 3%;
 }
 header img {
+    float: left;
     border-radius: 0%;
     height: 350px;
-    width: 900px;
+    width: 400px;
+}
+.header-text {
+    font-family: montserrat;
+    color: #E6E5CA;
+    float: left;
+}
+.header-text h1 {
+    font-size: 100px;
+    line-height: .5;
+}
+.header-text hr {
+    border: 4px solid #E6E5CA;
+    border-top: 4px solid #C9E265;
+    width: 50%;
+}
+.header-text h2 {
+    font-weight: 100;
+    color: #C9E265;
+    font-size: 40px;
 }
 .topnav {
     display: inline-block;
@@ -198,6 +214,11 @@ footer {
 .logo {
     max-width: 50px;
     border-radius: 0%;
+    margin-bottom: -6px;
+}
+.logo:hover {
+    border: #C9E265 solid 2px;
+    padding: 3px;
 }
 footer h2 {
     display: inline-block;
@@ -209,6 +230,19 @@ footer h2 {
 footer h5 {
     color: #E6E5CA;
     display: inline-block;
+    font-family: montserrat;
+    font-weight: 200;
+}
+.siteplan {
+    display: inline-block;
+    margin-left: 5%;
+    color: #E6E5CA;
+    font-family: montserrat;
+    font-weight: 200;
+}
+.siteplan:hover{
+    border:#C9E265 solid 2px;
+    padding: 3px;
 }
 /*Blog styles*/
 body {
@@ -302,11 +336,11 @@ hr {
 }
 
 
-@media (min-width: 1800px) {
+@media (min-width: 1500px) {
     .body{
         padding-left: 15% ;
         padding-right: 15%;
-        background-color: #fbf5d8;
+        background-color: #E6E5CA;
     }
 } 
 @media screen and (max-width: 600px) {
